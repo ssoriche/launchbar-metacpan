@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir -p ./metacpan.lbaction
+cp -R ./Contents ./metacpan.lbaction
+zip -r metacpan.lbaction.zip ./metacpan.lbaction
+rm -rf ./metacpan.lbaction

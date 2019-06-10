@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>metacpan-logo-graphic.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.metacpan</string>
+	<key>CFBundleName</key>
+	<string>meta::cpan</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1</string>
+	<key>LBAbbreviation</key>
+	<string>MC</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Shawn Sorichetti</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBSummary</key>
+		<string>Search metacpan with autosuggestions</string>
+		<key>LBTwitter</key>
+		<string>ssoriche</string>
+		<key>LBWebsiteURL</key>
+		<string>https://ssoriche.com</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBActionURLScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>bundle.min.js</string>
+		</dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBLiveFeedbackEnabled</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>bundle.min.js</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>2019 Shawn Sorichetti</string>
+</dict>
+</plist>
