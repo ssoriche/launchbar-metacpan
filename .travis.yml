@@ -6,3 +6,12 @@ node_js:
 cache:
   directories:
     - "node_modules"
+before_deploy:
+  - script/generate-zip
+deploy:
+  provider: releases
+  api_key: "$RELEASES_TOKEN"
+  file: "FILE TO UPLOAD"
+  skip_cleanup: true
+  on:
+    tags: true
