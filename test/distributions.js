@@ -15,22 +15,22 @@ describe('Distributions', function() {
       {
         "title": "Moo",
         "url": "https://metacpan.org/pod/Moo",
-        "icon": "font-awesome:share-alt",
+        "icon": "font-awesome:archive",
       },
       {
         "title": "Moose",
         "url": "https://metacpan.org/pod/Moose",
-        "icon": "font-awesome:share-alt",
+        "icon": "font-awesome:archive",
       },
       {
         "title": "Moose::Role",
         "url": "https://metacpan.org/pod/Moose::Role",
-        "icon": "font-awesome:share-alt",
+        "icon": "font-awesome:archive",
       },
       {
         "title": "Moose::Util",
         "url": "https://metacpan.org/pod/Moose::Util",
-        "icon": "font-awesome:share-alt",
+        "icon": "font-awesome:archive",
       },
       ];
 
