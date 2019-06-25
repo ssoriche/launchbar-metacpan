@@ -11,7 +11,7 @@ before_deploy:
 deploy:
   provider: releases
   api_key: "$RELEASES_TOKEN"
-  file: "FILE TO UPLOAD"
+  file: "metacpan.lbaction.zip"
   skip_cleanup: true
   on:
     tags: true
