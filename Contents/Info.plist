@@ -9,7 +9,7 @@
 	<key>CFBundleName</key>
 	<string>meta::cpan</string>
 	<key>CFBundleVersion</key>
-	<string>0.0.1</string>
+	<string>0.0.2</string>
 	<key>LBAbbreviation</key>
 	<string>MC</string>
 	<key>LBDebugLogEnabled</key>
@@ -26,6 +26,15 @@
 		<string>ssoriche</string>
 		<key>LBWebsiteURL</key>
 		<string>https://ssoriche.com</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/ssoriche/launchbar-metacpan/master/metacpan.lbaction/Contents/Info.plist</string>
+		<key>LBDownloadURL</key>
+		<string>https://github.com/ssoriche/launchbar-metacpan/releases</string>
+		<key>LBChangelog</key>
+		<string>
+			0.0.2: Added support for Action Updates Action
+			0.0.1: Initial public release
+		</string>
 	</dict>
 	<key>LBScripts</key>
 	<dict>
